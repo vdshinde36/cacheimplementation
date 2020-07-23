@@ -1,0 +1,25 @@
+{
+  "name": "cacheimplementation",
+  "version": "1.0.0",
+  "description": "<h4> This is demo for implementing simple cache at routing level</h2>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdshinde36/cacheimplementation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdshinde36/cacheimplementation/issues"
+  },
+  "homepage": "https://github.com/vdshinde36/cacheimplementation#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
