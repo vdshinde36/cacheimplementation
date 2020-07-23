@@ -39,7 +39,6 @@ redisClient.on('connect',() =>{
 
 // get all posts
 app.get('/posts' , (request ,response) =>{
-    console.log("route Hit"); // generating key for this posts request
     const cacheKey = 'req:posts';
     return redisClient.get(cacheKey , (err , posts) =>{
         console.log(posts);
