@@ -20,6 +20,6 @@
   "homepage": "https://github.com/vdshinde36/cacheimplementation#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "redis": "^3.0.2"
+    "redis": "^3.1.1"
   }
 }
